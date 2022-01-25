@@ -1,21 +1,18 @@
 .title {
-  color: #044ea4;
-  margin: 0;
-  line-height: 1;
-  font-size: 3rem;
+  color: #333;
+  padding-bottom: 20px;
+  text-align: center;
 }
 .text {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.3rem;
+  color: #777;
+}
+.btn {
+  display: block;
+  width: 150px;
+  padding: 8px 0;
+  margin: 20px auto;
+  background: #00720f;
+  border-radius: 4px;
+  color: white;
   text-align: center;
-  /* justify-content: center;
-  align-items: center; */
 }
-.text b {
-  color: #044ea4;
-}
-.text h3 {
-  color: #044ea4;
-}
-

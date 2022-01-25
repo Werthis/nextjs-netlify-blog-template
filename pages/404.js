@@ -5,11 +5,11 @@ import { useRouter } from "next/router";
 const PageNotFound = () => {
   const router = useRouter();
 
-  // useEffect(() => {
-  //   // setTimeout(() => {
-  //   router.push("/");
-  //   // }, 5000);
-  // }, []);
+  useEffect(() => {
+    setTimeout(() => {
+      router.push("/");
+    }, 5000);
+  }, []);
 
   return (
     <div className="not-found">

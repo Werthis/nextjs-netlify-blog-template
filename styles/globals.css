@@ -1,11 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Balthazar&display=swap");
 
 body {
-  background: #e6e6e6;
+  background: #f2f2f2;
   color: #333;
-  font-family: "Open Sans", sans-serif;
-  cursor: url(/nutka25_2.png), auto;
+  font-family: "Balthazar";
 }
 a {
   color: #333;
@@ -15,37 +13,20 @@ a {
   max-width: 960px;
   margin: 0 auto;
 }
-
 nav {
   margin: 10px auto 80px;
   padding: 10px 0;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  border-bottom: 1px solid #d6d6d6;
+  border-bottom: 1px solid #999999;
+}
+nav a {
+  margin-left: 12px;
 }
 nav .logo {
   margin-right: auto;
 }
-
-.link {
-  font-family: "Playfair Display", serif;
-  color: #044ea4;
-  background: transparent;
-  border-radius: 20px;
-  letter-spacing: 2px;
-  padding: 8px;
-  font-size: 0.8rem;
-  border: 1px solid hsl(212, 95%, 33%, 0%);
-  /* cursor: none; */
-  cursor: url(/nutka25_2.png), auto;
-}
-.link:hover {
-  color: #044ea4;
-  background-color: hsl(212, 95%, 33%, 10%);
-  border: 1px solid #044ea4;
-}
-
 footer {
   display: block;
   text-align: center;
@@ -54,52 +35,10 @@ footer {
   color: #777;
   border-top: 1px solid #d6d6d6;
 }
-.socialIcon {
-  cursor: url(/nutka25_2.png), auto;
-}
-
 .not-found {
   text-align: center;
 }
 .not-found a {
-  color: #044ea4;
+  color: #00720f;
   text-decoration: underline;
 }
-
-.wstapButton {
-  font-family: "Playfair Display", serif;
-  border: 3px solid #d4bb55;
-  color: #fcca04;
-  background-color: #044ea4;
-  border-radius: 200px;
-  font-size: 1.2em;
-  letter-spacing: 2px;
-  padding: 10px;
-  margin: 0 10px;
-  cursor: pointer;
-  /* text-shadow: 2px 2px #044ea4; */
-  box-shadow: 1px 3px 5px #7e12129c;
-}
-.wstapButton:hover {
-  color: #044ea4;
-  background-color: #ffcc00;
-  text-shadow: 2px 2px #ffffff;
-  border: 3px solid #044ea4;
-  cursor: url(/nuty60.png), auto;
-}
-
-.video-responsive {
-  overflow: hidden;
-  padding-bottom: 56.25%;
-  position: relative;
-  height: 0;
-}
-.video-responsive iframe {
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-}
-
-
