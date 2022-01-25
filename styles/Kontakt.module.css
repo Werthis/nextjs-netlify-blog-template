@@ -1,0 +1,29 @@
+.title {
+  color: #044ea4;
+  margin: 0;
+  line-height: 1;
+  font-size: 3rem;
+}
+.button {
+  margin: 4rem 0;
+  line-height: 1.5;
+  font-size: 1.3rem;
+  text-align: center;
+}
+.text {
+  margin: 4rem 0;
+  line-height: 1.5;
+  font-size: 1.3rem;
+  text-align: justify;
+  /* justify-content: center;
+    align-items: center; */
+}
+.text h1 {
+  text-align: center;
+}
+.text b {
+  color: #044ea4;
+}
+.text h3 {
+  color: #044ea4;
+}

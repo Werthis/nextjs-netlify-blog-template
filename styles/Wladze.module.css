@@ -1,0 +1,25 @@
+.title {
+  color: #044ea4;
+  margin: 0;
+  line-height: 1;
+  font-size: 3rem;
+}
+/* 
+.title,
+.description {
+  text-align: center;
+} */
+
+.text {
+  margin: 4rem 0;
+  line-height: 1.5;
+  font-size: 1rem;
+  text-align: justify;
+}
+.text b {
+  color: #044ea4;
+  font-size: 1.3rem;
+}
+.newLine {
+  border-bottom: 1px solid #044ea4;
+}

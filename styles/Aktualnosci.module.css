@@ -1,0 +1,28 @@
+.title {
+  color: #044ea4;
+  margin: 0;
+  line-height: 1;
+  font-size: 3rem;
+}
+/* 
+.title,
+.description {
+  text-align: center;
+} */
+
+.text {
+  margin: 4rem 0;
+  line-height: 1.5;
+  font-size: 1rem;
+  text-align: justify;
+}
+.text b {
+  color: #044ea4;
+}
+.image40 {
+  width: 194px;
+  height: 279px;
+  border-radius: 20px;
+  /* width={194}
+  height={279} */
+}
